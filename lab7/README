@@ -1,0 +1,12 @@
+## Docker pull images
+
+docker pull mysql/mysql-server:5.5
+docker pull cassandra:2.2
+
+docker pull kong:0.9.9
+
+
+
+
+## Docker run Images
+

@@ -1,0 +1,16 @@
+curl -X GET \
+    https://974ymbqcn5.execute-api.us-west-1.amazonaws.com/prod/ping 
+
+curl -X GET \
+    https://974ymbqcn5.execute-api.us-west-1.amazonaws.com/prod/buckets?buckets=true
+
+
+
+curl -X PUT \
+    https://974ymbqcn5.execute-api.us-west-1.amazonaws.com/prod/buckets/bucket/keys/key1?returnbody=true \
+  -d '{
+    "foo": "bar"
+    }'
+
+curl -X GET \
+    https://974ymbqcn5.execute-api.us-west-1.amazonaws.com/prod/buckets/bucket/keys/key1
