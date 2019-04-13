@@ -1,0 +1,5 @@
+# mongo -u admin
+
+show dbs
+use bios
+
